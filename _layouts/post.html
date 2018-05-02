@@ -168,6 +168,14 @@ layout: default
     </div>
 </article>
 
+<script>
+    (function () {
+     var script = document.createElement("script");
+     script.type = "text/javascript";
+     script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+     document.getElementsByTagName("head")[0].appendChild(script);
+     })();
+</script>
 
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
