@@ -108,11 +108,12 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "Pekary",
-        href: "https://pekary.github.io"
-    },{
-        title: "Pooki Site",
-        href: "http://pooki.cn"
-    }
+    # {
+    #     title: "Pekary",
+    #     href: "https://pekary.github.io"
+    # },
+    # {
+    #     title: "Pooki Site",
+    #     href: "http://pooki.cn"
+    # }
 ]
